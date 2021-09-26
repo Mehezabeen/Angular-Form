@@ -1,0 +1,17 @@
+<!-- <form #regForm="ngForm" (ngSubmit)="onRegister(regForm.value)">
+    <input type="text" placeholder="Enter User Name" name="uName" ngModel><br>
+    <input type="text" placeholder="Enter Password" name="Pwd" ngModel><br>
+    <input type="text" placeholder="Enter Age" name="Age" ngModel><br>
+    <span>Gender</span>
+    <input type="radio" name="gender" value="Male" ngModel>Male
+    <input type="radio" name="gender" value="Female" ngModel>Female
+    <button type="submit" class="btn btn-success">Submit</button>
+</form> -->
+
+
+<form #LogForm="ngForm" (ngSubmit)="onLogin(LogForm.value)">
+    <input type="text" placeholder="Enter User Name" name="uName" ngModel><br>
+    <input type="text" placeholder="Enter Password" name="pwd" ngModel><br>
+    <button class="btn btn-primary">Login</button>
+
+</form>

@@ -1,0 +1,11 @@
+
+   <form [formGroup]="regForm" (ngSubmit)="onRegisterForm()">
+    <input type="text" placeholder="Enter User Name" formControlName="uName"><br>
+    <input type="text" placeholder="Enter Password" formControlName="pwd" ><br>
+    <input type="text" placeholder="Enter Age" formControlName="age"><br>
+    <span>Gender</span>
+    <input type="radio" name="gender" value="Male" formControlName="gender">Male
+    <input type="radio" name="gender" value="Female" formControlName="gender">Female
+    <button type="submit" class="btn btn-success">Submit</button>
+</form> 
+
